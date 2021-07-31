@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://www.nasdaq.com/sites/acquia.prod/files/styles/1200x500/public/2020/06/12/1782-Q20%20Markets%20in%20the%20Cloud%20Web%20Banner_CC-Nograd.jpg?h=c673cd1c&itok=BDmZDwWW');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(31, 87, 61, 0.3);
+    border-radius: 20px;
+}
+.btn{
+    height: 30px;
+    width: 90px;
+    background-color:  rgba(31, 87, 61, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    /* margin-left: 10px; */
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+}
+.h1{
+    font-size: 50px;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
